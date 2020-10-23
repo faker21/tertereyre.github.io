@@ -1,144 +1,245 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" class="">
 
-<head>
+
+<!-- Mirrored from forsyth.itslearning.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Oct 2020 13:46:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head id="Head">
+	<title>itslearning sign-in page</title>
+	<link href="../statics.itslearning.com/v3.115.0.528/application/login/index.modern.bundle.css" type="text/css" rel="stylesheet" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
-	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
-	<title>Local index - HTTrack Website Copier</title>
-  <!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
-	<style type="text/css">
-	<!--
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="referrer" content="origin" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="icon" type="image/vnd.microsoft.icon" href="https://statics.itslearning.com/v3.115.0.528/favicon.ico" />
+	<link rel="apple-touch-icon" href="../statics.itslearning.com/v3.115.0.528/touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../statics.itslearning.com/v3.115.0.528/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../statics.itslearning.com/v3.115.0.528/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../statics.itslearning.com/v3.115.0.528/touch-icon-ipad-retina.png" />
+	<meta name="apple-itunes-app" content="app-id=951619066" />
+	<meta name="google-play-app" content="app-id=com.itslearning.itslearningintapp" />
+	<script type="text/javascript" src="../statics.itslearning.com/v3.115.0.528/javascript/Common.js"></script>
 
-body {
-	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
-	background: #77b;
-}
-body, td {
-	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	}
+	<script type="text/javascript" src="../statics.itslearning.com/v3.115.0.528/ui/controls/media/javascript/AC_RunActiveContent.js"></script>
 
-#subTitle {
-	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
-	}
-
-#siteNavigation a, #siteNavigation .current {
-	font-weight: bold;  color: #448;
-	}
-#siteNavigation a:link    { text-decoration: none; }
-#siteNavigation a:visited { text-decoration: none; }
-
-#siteNavigation .current { background-color: #ccd; }
-
-#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
-#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
-
-
-a:link    { text-decoration: underline;  color: #00f; }
-a:visited { text-decoration: underline;  color: #000; }
-a:hover   { text-decoration: underline;  color: #c00; }
-a:active  { text-decoration: underline; }
-
-#pageContent {
-	clear: both;
-	border-bottom: 6px solid #000;
-	padding: 10px;  padding-top: 20px;
-	line-height: 1.65em;
-	background-image: url(backblue.gif);
-	background-repeat: no-repeat;
-	background-position: top right;
-	}
-
-#pageContent, #siteNavigation {
-	background-color: #ccd;
-	}
-
-
-.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
-.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
-
-hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
-
-h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
-h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
-h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
-h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
-
-.blak { background-color: #000; }
-.hide { display: none; }
-.tableWidth { min-width: 400px; }
-
-.tblRegular       { border-collapse: collapse; }
-.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
-.tblHeaderColor, .tblHeaderColor td { background: #99c; }
-.tblNoBorder td   { border: 0; }
-
-
-// -->
-</style>
+	<script type="text/javascript" src="../statics.itslearning.com/v3.115.0.528/javascript/onboarding/onboarding.min.js"></script>
 
 </head>
+<body class='itsl-login'>
+    <main>
+        <div id="login-banner"></div>
+        <form method="post" action="https://forsyth.itslearning.com/" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTkwMzIwNTczNQ8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgIFBWN0bDAwD2QWBAICD2QWBgIBD2QWBAIDD2QWCgIDDw8WBB4IQ3NzQ2xhc3MFEWgtaGlnaGxpZ2h0IGgtbXIwHgRfIVNCAgJkFgICAQ8WAh4EVGV4dGVkAgQPFgIeBXN0eWxlBQ5kaXNwbGF5OiBub25lOxYCAgEPZBYIZg8WAh4FY2xhc3MFC2Vsb2dpbi1pdGVtFgJmDw9kFgweC3BsYWNlaG9sZGVyBQhVc2VybmFtZR4KYXJpYS1sYWJlbAUIVXNlcm5hbWUeCHJlcXVpcmVkBQhyZXF1aXJlZB4LYXV0b2NvcnJlY3QFA29mZh4OYXV0b2NhcGl0YWxpemUFA29mZh4QYXJpYS1kZXNjcmliZWRieQUrY3RsMDBfQ29udGVudFBsYWNlSG9sZGVyMV9FcnJvck1lc3NhZ2VQYW5lbGQCAQ8WAh8FBQtlbG9naW4taXRlbRYCZg8PZBYMHwYFCFBhc3N3b3JkHwcFCFBhc3N3b3JkHwgFCHJlcXVpcmVkHwkFA29mZh8KBQNvZmYfCwUrY3RsMDBfQ29udGVudFBsYWNlSG9sZGVyMV9FcnJvck1lc3NhZ2VQYW5lbGQCAw8PFgYfAwUHU2lnbiBpbh8BBWBjY2wtYnV0dG9uIGNjbC1idXR0b24tY29sb3ItZ3JlZW4gY2NsLWJ1dHRvbi1vayBpdHNsLW5vLXRleHQtZGVjb3JhdGlvbiBpdHNsLW5hdGl2ZS1sb2dpbi1idXR0b24fAgICZGQCBA8PZBYCHwUFGGgtZHNwLWIgaC1mbnQtc20gaC1wZHQxMGQCBQ8WBB8EBQ5kaXNwbGF5OiBub25lOx4HVmlzaWJsZWdkAgYPFgIfBQUTY2NsLXJ3Z20tY29sdW1uLTEtMRYCAgEPZBYCZg8WAh4LXyFJdGVtQ291bnQCARYCZg9kFgICAQ8PFgYfAQVnaC1ib3gtc2l6aW5nLWJiIGNjbC1idXR0b24gaXRzbC1uby10ZXh0LWRlY29yYXRpb24gaXRzbC1uYXRpdmUtbG9naW4tYnV0dG9uIGl0c2wtYnV0dG9uLWNvbG9yLWZlZGVyYXRlZB4PQ29tbWFuZEFyZ3VtZW50BQEwHwICAmQWAmYPFQJLaHR0cHM6Ly9zdGF0aWNzLml0c2xlYXJuaW5nLmNvbS92My4xMTUuMC41MjgvaWNvbnMveHAvZmVkZXJhdGVkX2xvZ2luMjQucG5nJUxvZyBpbiB3aXRoIFN0dWRlbnQgYW5kIFRlYWNoZXIgTG9naW5kAgcPFgQfBQUiaC1kc3AtYi1ub3QtZm9yY2VkIGgtZm50LXNtIGgtcGQxMB8MZ2QCBQ9kFgJmD2QWAmYPZBYGAgEPFgIfAwULSW5mb3JtYXRpb25kAgUPFgIfDGhkAgcPFCsAAg8WBB4LXyFEYXRhQm91bmRnHw0CAWRkFgJmD2QWAmYPFQMPUGFyZW50IEFjY291bnRz8BM8cD48Yj5BY2NvdW50IEluZm9ybWF0aW9uIGZvciBQYXJlbnRzPC9iPjxiciAvPjxiciAvPkl0c2xlYXJuaW5nIGFuZCBQYXJlbnQgUG9ydGFsIGFyZSB0d28gc2VwYXJhdGUgc3lzdGVtcy4gJm5ic3A7VG8gbG9nIGludG8gaXRzbGVhcm5pbmcgeW91IG11c3QgZmlyc3QgaGF2ZSBhIFBhcmVudCBQb3J0YWwgYWNjb3VudC4gJm5ic3A7SWYgeW91IGRvIG5vdCBoYXZlIGEgUGFyZW50IFBvcnRhbCBhY2NvdW50IHBsZWFzZSBmb2xsb3cgdGhlIHN0ZXBzIGJlbG93IHRvIHJlY2VpdmUgb25lLiAmbmJzcDtJZiB5b3UgaGF2ZSBhIFBhcmVudCBQb3J0YWwgYWNjb3VudCBidXQgaGF2ZSBub3QgeWV0IGxvZ2dlZCBpbnRvIGl0c2xlYXJuaW5nLCB5b3UgbWF5IGVtYWlsIDxhIGhyZWY9Im1haWx0bzpjbGl0dGxlQGZvcnN5dGguazEyLmdhLnVzIj5jbGl0dGxlQGZvcnN5dGguazEyLmdhLnVzPC9hPiB0byByZXF1ZXN0IHlvdXIgaXRzbGVhcm5pbmcgcGFzc3dvcmQgdG8gYmUgYWN0aXZhdGVkLjxiciAvPjxiciAvPklmIHlvdSBmb3Jnb3QgeW91ciBpdHNsZWFybmluZyBwYXNzd29yZCwgeW91IG1heSBlbWFpbCA8YSBocmVmPSJtYWlsdG86Y2xpdHRsZUBmb3JzeXRoLmsxMi5nYS51cyI+Y2xpdHRsZUBmb3JzeXRoLmsxMi5nYS51czwvYT4gdG8gcmVxdWVzdCB5b3VyIGl0c2xlYXJuaW5nIHBhc3N3b3JkIHRvIGJlIHJlc2V0LjxiciAvPjxiciAvPklmIHlvdSBmb3Jnb3QgeW91ciBQYXJlbnQgUG9ydGFsIHBhc3N3b3JkLCB5b3UgbXVzdCBzaG93IHlvdXIgSUQgYXQgeW91ciBjaGlsZCdzIHNjaG9vbCBvciBhdCB0aGUgSGlsbCBjZW50ZXIgdG8gaGF2ZSB5b3VyIHBhc3N3b3JkIHJlc2V0LiAmbmJzcDtQYXJlbnQgUG9ydGFsIGNvbnRhaW5zIGEgaGlnaGVyIGxldmVsIG9mIHByaXZhdGUgc3R1ZGVudCBpbmZvcm1hdGlvbiB3aGljaCByZXF1aXJlcyBpZGVudGlmaWNhdGlvbiB0byByZXNldC48YnIgLz48YnIgLz5Ib3cgdG8gc2V0IHVwIGEgUGFyZW50IFBvcnRhbCBhY2NvdW50OjxiciAvPjEuIFRvIHJlY2VpdmUgYSBQYXJlbnQgUG9ydGFsIGFjY291bnQgQWN0aXZhdGlvbiBLZXksIGJyaW5nIGEgcGhvdG8gaWRlbnRpZmljYXRpb24gdG8geW91ciBjaGlsZCdzIHNjaG9vbCBvciB0aGUgQWxtb24gQy4gSGlsbCBFZHVjYXRpb25hbCBDZW50ZXIgbG9jYXRlZCBhdCAxMzYgQWxtb24gQy4gSGlsbCBEcml2ZSAocmVjZW50IHN0cmVldCBuYW1lIGNoYW5nZSBmcm9tIDEzNiBFbG0gU3RyZWV0KSwgQ3VtbWluZywgR0EuIFJlZmVyIHRvIHRoZSBSZWNvcmRzIERlcGFydG1lbnQgd2Vic2l0ZSBmb3IgSGlsbCBDZW50ZXIgaG91cnMgb2Ygb3BlcmF0aW9uOiA8YSBocmVmPSJodHRwOi8vd3d3LmZvcnN5dGguazEyLmdhLnVzL3BhZ2UvMTUxNCI+aHR0cDovL3d3dy5mb3JzeXRoLmsxMi5nYS51cy9wYWdlLzE1MTQ8L2E+PGJyIC8+PGJyIC8+Mi4gV2hlbiB5b3UgcmVjZWl2ZSB5b3VyIEFjdGl2YXRpb24gS2V5LCB5b3UgY2FuIGNyZWF0ZSBhbiBhY2NvdW50IGZvciBQYXJlbnQgUG9ydGFsIGF0IHRoZSBmb2xsb3dpbmcgbGluazogPGEgaHJlZj0iaHR0cHM6Ly9jYW1wdXMuZm9yc3l0aC5rMTIuZ2EudXMvY2FtcHVzL3BvcnRhbC9mb3JzeXRoLmpzcD9zZWN0aW9uPWFjdGl2YXRlIj5odHRwczovL2NhbXB1cy5mb3JzeXRoLmsxMi5nYS51cy9jYW1wdXMvcG9ydGFsL2ZvcnN5dGguanNwP3NlY3Rpb249YWN0aXZhdGU8L2E+ICZuYnNwOyAmbmJzcDs8YnIgLz48YnIgLz4zLiBQYXJlbnQgUG9ydGFsIGFjY291bnRzIGNyZWF0ZWQgYmVmb3JlIDc6MDAgUE0gd2lsbCBiZSB1cGxvYWRlZCBvdmVybmlnaHQgaW50byBpdHNsZWFybmluZy4gVGhlIG5leHQgZGF5LCByZXR1cm4gdG8gdGhpcyBpdHNsZWFybmluZyBsb2dpbiBwYWdlIGFuZCBzZW5kIGFuIGVtYWlsIHRvIDxhIGhyZWY9Im1haWx0bzpjbGl0dGxlQGZvcnN5dGguazEyLmdhLnVzIj5jbGl0dGxlQGZvcnN5dGguazEyLmdhLnVzPC9hPi4gVGhpcyB3aWxsIGluaXRpYXRlIGFuIGVtYWlsIHRvIGEgc3RhZmYgbWVtYmVyIHRvIGNvbXBsZXRlIHlvdXIgYWNjb3VudCBhY3RpdmF0aW9uIHByb2Nlc3MuIFVwb24gYWN0aXZhdGlvbiB5b3Ugd2lsbCByZWNlaXZlIGFuIGVtYWlsIHRvIHJlc2V0IHlvdXIgaXRzbGVhcm5pbmcgcGFzc3dvcmQuPGJyIC8+PGJyIC8+VGhhbmsgeW91IGZvciB5b3VyIHN1cHBvcnQgb2YgRm9yc3l0aCBDb3VudHkgU2Nob29scyE8YnIgLz48YnIgLz5XaGF0IHRvIGV4cGVjdCBvbmNlIHlvdSBsb2cgaW46PGJyIC8+PGlmcmFtZSBzcmM9Imh0dHBzOi8vcGxheWVyLnZpbWVvLmNvbS92aWRlby83MTQ1NjQ2MyIgd2lkdGg9IjUwMCIgaGVpZ2h0PSIzMTMiIGZyYW1lYm9yZGVyPSIwIj48L2lmcmFtZT4gPHA+PGEgaHJlZj0iaHR0cHM6Ly92aW1lby5jb20vNzE0NTY0NjMiPlBhcmVudCBWaWRlbzwvYT4gZnJvbSA8YSBocmVmPSJodHRwczovL3ZpbWVvLmNvbS91c2VyMTkzMDIyMjIiPkphc29uIE5haWxlPC9hPiBvbiA8YSBocmVmPSJodHRwczovL3ZpbWVvLmNvbSI+VmltZW88L2E+LjwvcD48YnIgLz48YnIgLz48YnIgLz4QOC80LzIwMjAgODoxMyBBTWQCAw9kFgJmDxYCHwUFB2gtaGxpc3QWAgIBDxYCHw0CARYCZg9kFgJmDxUCES9DbGVhbkNvb2tpZS5hc3B4GUNsZWFuIGl0c2xlYXJuaW5nIGNvb2tpZXNkAgUPZBYCZg8VAU9odHRwczovL3BsYXRmb3JtLml0c2xlYXJuaW5nLmNvbS9SZWRpcmVjdGlvbi9TZXRDdXN0b21lcklkLmFzcHg/Q3VzdG9tZXJJZD0yMTc0ZAIED2QWAmYPFQssY3RsMDBfQ29udGVudFBsYWNlSG9sZGVyMV9uYXRpdmVBbmRMZGFwTG9naW4lY3RsMDBfQ29udGVudFBsYWNlSG9sZGVyMV9vclNlcGFyYXRvcihjdGwwMF9Db250ZW50UGxhY2VIb2xkZXIxX2ZlZGVyYXRlZExvZ2luMmN0bDAwX0NvbnRlbnRQbGFjZUhvbGRlcjFfbmF0aXZlTG9naW5MaW5rQ29udGFpbmVyL2N0bDAwX0NvbnRlbnRQbGFjZUhvbGRlcjFfZmVkZXJhdGVkTG9naW5XcmFwcGVyM2N0bDAwX0NvbnRlbnRQbGFjZUhvbGRlcjFfc2hvd05hdGl2ZUxvZ2luVmFsdWVGaWVsZBNjY2wtcndnbS1jb2x1bW4tMS0yE2NjbC1yd2dtLWNvbHVtbi0xLTIEdHJ1ZSBwZGZob3BpbGJuZGlmbWZjZWpnZGRvYWJpZ2FkamdwbSdjdGwwMF9Db250ZW50UGxhY2VIb2xkZXIxX0Nocm9tZWJvb2tBcHBkGAEFJ2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkTmV3cyROZXdzTGlzdA8UKwAOZGRkZGRkZBQrAAFkAgFkZGRmAv////8PZCGG2zAgsjTHxNkT9hQVTCYnivy6" />
+</div>
 
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
-	<tr>
-	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
-	</tr>
-</table>
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
-<tr class="blak">
-<td>
-	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
-	<tr>
-	<td colspan="6"> 
-		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
-		<tr> 
-		<td id="pageContent"> 
-<!-- ==================== End prologue ==================== -->
-
-	<meta name="generator" content="HTTrack Website Copier/3.x">
-	<TITLE>Local index - HTTrack</TITLE>
-</HEAD>
-<BODY>
-<H1 ALIGN=Center>Index of locally available sites:</H1>
-	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
-		<TR>
-			<TD BACKGROUND="fade.gif">
-				&middot;
-					<A HREF="forsyth.itslearning.com/index.html">
-						itslearning sign-in page
-					</A>		
-			</TD>
-		</TR>
-	</TABLE>
-	<BR>
-	<BR>
-	<BR>
-  	<H6 ALIGN="RIGHT">
-	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
-	</H6>
-	<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
-	<!-- Thanks for using HTTrack Website Copier! -->
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=forsyth.itslearning.com/index.html">
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
 
 
-<!-- ==================== Start epilogue ==================== -->
-		</td>
-		</tr>
-		</table>
-	</td>
-	</tr>
-	</table>
-</td>
-</tr>
-</table>
 
-<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
-	<tr>
-	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
-	</tr>
-</table>
+<script src="../statics.itslearning.com/v3.115.0.528/javascript/jQuery/jquery-1.7.1/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="../statics.itslearning.com/v3.115.0.528/javascript/jQuery/jquery-1.7.1/jquery-ui-1.11.4.custom.min.js" type="text/javascript"></script>
+<script src="../statics.itslearning.com/v3.115.0.528/javascript/commonControlLibrary.min.js" type="text/javascript"></script>
+<div>
 
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAh33+eTfbX1WmYe0i+qaKbm8fB5t+9v57KHoifeE6Ej+75MFqk64wecfXK5391QIHERiRPiIDS215NijH3q7vi1WK7yTHiL7l2vfUPiKuw9XzZbJu45tsDtDDzAJG3UMfy3yWI6e3KoNuh/i3iCvvZyLSREbUfcpJrCaxK3KzG83EvUk64uhrMUScuA6qoIQJM+KNg7" />
+</div>
+            
+    
+    <section id="ctl00_ContentPlaceHolder1_LoginSection" class="itsl-widget itsl-login-container group">
+        
+        
+        <img class="l-login-sitelogo h-mrb10" src="../statics.itslearning.com/v3.115.0.528/Skins/DoNotUse1/its_logo.png" alt="itslearning" style="border-width:0px;" />
+
+        <section>
+            <h1 class='h-dsp-ib h-mr0'>
+                Forsyth County Schools
+            </h1>
+            <div>
+	
+                <p class="h-fnt-sm h-pd0 h-pdb10 h-mr0 h-pdt5">
+                    <a href='https://us1.itslearning.com/welcome.aspx?clean=true&amp;LanguageId=13' class="h-mrl10 h-fnt-sm">
+                        Not from Forsyth County Schools?
+                    </a>
+                </p>
+            
+</div>
+
+            <div id="ctl00_ContentPlaceHolder1_ErrorMessagePanel" class="h-highlight h-mr0">
+	
+                
+            
+</div>
+        </section>
+
+        <section class="its-login-input-container">
+            
+            <ul class="rwgm-row">
+                
+	            <li id="ctl00_ContentPlaceHolder1_nativeAndLdapLogin" style="display: none;">
+	                <div id="ctl00_ContentPlaceHolder1_nativeAndLdapLoginWrapper" class="itslogin-box-wrapper-left">
+	                    <p class="h-fnt-sm">
+	                        Log in with itslearning
+	                    </p>
+
+                        <div id="ctl00_ContentPlaceHolder1_Username" class="elogin-item"><input name="ctl00$ContentPlaceHolder1$Username$input" type="text" size="20" id="ctl00_ContentPlaceHolder1_Username_input" class="h-width-100" placeholder="Username" aria-label="Username" required="required" autocorrect="off" autocapitalize="off" aria-describedby="ctl00_ContentPlaceHolder1_ErrorMessagePanel" autofocus="autofocus" /><div class="h-fl-c"></div></div>
+                        <div id="ctl00_ContentPlaceHolder1_Password" class="elogin-item"><input name="ctl00$ContentPlaceHolder1$Password$input" type="password" size="20" id="ctl00_ContentPlaceHolder1_Password_input" class="h-width-100" placeholder="Password" aria-label="Password" required="required" autocorrect="off" autocapitalize="off" aria-describedby="ctl00_ContentPlaceHolder1_ErrorMessagePanel" /><div class="h-fl-c"></div></div>
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$ChromebookApp" id="ctl00_ContentPlaceHolder1_ChromebookApp" value="false" />
+
+	                    <input type="submit" name="ctl00$ContentPlaceHolder1$nativeLoginButton" value="Sign in" id="ctl00_ContentPlaceHolder1_nativeLoginButton" class="ccl-button ccl-button-color-green ccl-button-ok itsl-no-text-decoration itsl-native-login-button" />
+
+                        
+	                </div>
+	            </li>
+                <li id="ctl00_ContentPlaceHolder1_orSeparator" class="itsl-login-column-separator" style="display: none;">
+                        <div id="ctl00_ContentPlaceHolder1_or" class="itsl-or">OR</div>
+                </li>
+                
+	            <li id="ctl00_ContentPlaceHolder1_federatedLogin" class="ccl-rwgm-column-1-1">
+	                <div id="ctl00_ContentPlaceHolder1_federatedLoginWrapper">
+	                    <p class="h-fnt-sm">
+	                        A new window will appear if you are not already logged in
+	                    </p>
+                        
+                        
+                                <a class="h-box-sizing-bb ccl-button itsl-no-text-decoration itsl-native-login-button itsl-button-color-federated" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$federatedLoginButtons$ctl00$ctl00&#39;,&#39;&#39;)">
+                                    <img src='../statics.itslearning.com/v3.115.0.528/icons/xp/federated_login24.png' alt="" class="h-valgn-m" />
+                                    Log in with Student and Teacher Login</a>
+                            
+	                </div>
+	            </li>
+            </ul>
+            <div id="ctl00_ContentPlaceHolder1_nativeLoginLinkContainer" class="h-dsp-b-not-forced h-fnt-sm h-pd10">
+                <a onclick="showNativeLoginElement(); return false;" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$ctl02&#39;,&#39;&#39;)">Log in with itslearning</a>
+            </div>
+            
+        </section>
+    </section>
+
+    
+    <div id="ctl00_ContentPlaceHolder1_News_NewsComponent" class="itsl-login-container itsl-widget group">
+            <div class="h-txt-algn-l">
+                <div>
+                    <h2 class="itsl-customer-news-list-title">
+                        Information
+                    </h2>
+                     <a href="Rssc552.aspx?Id=0X2174" target="_blank" title="Subscribe to this blog"><img class="itsl-customer-news-list-icon" alt="Subscribe to this blog" src="../statics.itslearning.com/v3.115.0.528/icons/xp/RssFeed16.png"  /></a>
+
+                        
+                </div>
+                
+                        <h3>Parent Accounts</h3>
+                        <p class="itsl-black itsl-news-content">
+                            <p><b>Account Information for Parents</b><br /><br />Itslearning and Parent Portal are two separate systems. &nbsp;To log into itslearning you must first have a Parent Portal account. &nbsp;If you do not have a Parent Portal account please follow the steps below to receive one. &nbsp;If you have a Parent Portal account but have not yet logged into itslearning, you may email <a href="cdn-cgi/l/email-protection.html#c7a4abaeb3b3aba287a1a8b5b4beb3afe9acf6f5e9a0a6e9b2b4"><span class="__cf_email__" data-cfemail="e487888d90908881a4828b96979d908cca8fd5d6ca8385ca9197">[email&#160;protected]</span></a> to request your itslearning password to be activated.<br /><br />If you forgot your itslearning password, you may email <a href="cdn-cgi/l/email-protection.html#b5d6d9dcc1c1d9d0f5d3dac7c6ccc1dd9bde84879bd2d49bc0c6"><span class="__cf_email__" data-cfemail="f0939c9984849c95b0969f8283898498de9bc1c2de9791de8583">[email&#160;protected]</span></a> to request your itslearning password to be reset.<br /><br />If you forgot your Parent Portal password, you must show your ID at your child's school or at the Hill center to have your password reset. &nbsp;Parent Portal contains a higher level of private student information which requires identification to reset.<br /><br />How to set up a Parent Portal account:<br />1. To receive a Parent Portal account Activation Key, bring a photo identification to your child's school or the Almon C. Hill Educational Center located at 136 Almon C. Hill Drive (recent street name change from 136 Elm Street), Cumming, GA. Refer to the Records Department website for Hill Center hours of operation: <a href="http://www.forsyth.k12.ga.us/page/1514">http://www.forsyth.k12.ga.us/page/1514</a><br /><br />2. When you receive your Activation Key, you can create an account for Parent Portal at the following link: <a href="https://campus.forsyth.k12.ga.us/campus/portal/forsyth.jsp?section=activate">https://campus.forsyth.k12.ga.us/campus/portal/forsyth.jsp?section=activate</a> &nbsp; &nbsp;<br /><br />3. Parent Portal accounts created before 7:00 PM will be uploaded overnight into itslearning. The next day, return to this itslearning login page and send an email to <a href="cdn-cgi/l/email-protection.html#62010e0b16160e0722040d10111b160a4c0953504c05034c1711"><span class="__cf_email__" data-cfemail="d0b3bcb9a4a4bcb590b6bfa2a3a9a4b8febbe1e2feb7b1fea5a3">[email&#160;protected]</span></a>. This will initiate an email to a staff member to complete your account activation process. Upon activation you will receive an email to reset your itslearning password.<br /><br />Thank you for your support of Forsyth County Schools!<br /><br />What to expect once you log in:<br /><iframe src="https://player.vimeo.com/video/71456463" width="500" height="313" frameborder="0"></iframe> <p><a href="https://vimeo.com/71456463">Parent Video</a> from <a href="https://vimeo.com/user19302222">Jason Naile</a> on <a href="https://vimeo.com/">Vimeo</a>.</p><br /><br /><br />
+                        </p>
+                        <p class="h-pdt0 h-mrb10 itsl-separator">8/4/2020 8:13 AM</p>
+                    
+            </div>
+        </div>
+
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$showNativeLoginValueField" id="ctl00_ContentPlaceHolder1_showNativeLoginValueField" />
+
+            <div class="l-login-links">
+                <ul id="ctl00_LoginResources_innerContainer" class="h-hlist">
+
+    <li>
+        <a href="CleanCookie.html">Clean itslearning cookies</a>
+    </li>
+    
+</ul>
+            </div>
+            
+    <iframe src="https://platform.itslearning.com/Redirection/SetCustomerId.aspx?CustomerId=2174" style="display: none;"></iframe>
+
+            <div class="copyright h-position-s">
+	<div class="copyrightlogo">
+		<img src="https://statics.itslearning.com/v3.115.0.528/images/brand.svg" alt="itslearning" />
+	</div>itslearning (3.115.0.528) Copyright © 2020 itslearning - All rights reserved <br />itslearning.com
+</div>
+        
+
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+//<![CDATA[
+new SmartBanner({"icon":"https://statics.itslearning.com/v3.115.0.528//images/logo-badge.svg","daysHidde":90,"daysReminder":15,"title":"itslearning","author":"itslearning AS","button":"VIEW","store":{"ios":"On the App Store","android":"In Google Play"},"price":{"ios":"FREE","android":"FREE"},"force":null});$(function() { IframeClickEventHelper.registerDocumentClickBubblingOnTop(); });attachOnReadySendTitleToParent();
+$(function() {
+    if (!('autofocus' in document.createElement('input'))) {
+        document.getElementById('ctl00_ContentPlaceHolder1_Username_input').focus();
+    }
+});//]]>
+</script>
+</form>
+        <div id="language-picker">
+
+</div>
+        <script type="text/javascript">
+            
+            var LoginPageSettings = {"userNameInputClientId":"","languagePickerLanguages":[{"value":"nb-NO","text":"Bokmål","id":"0"},{"value":"co-FR","text":"Corsu","id":"15"},{"value":"da-DK","text":"Dansk","id":"9"},{"value":"de-DE","text":"Deutsch","id":"6"},{"value":"en-GB","text":"English (UK)","id":"1"},{"value":"en-US","text":"English (US)","id":"13"},{"value":"es-ES","text":"Español","id":"10"},{"value":"fr-FR","text":"Français","id":"11"},{"value":"it-IT","text":"Italiano","id":"12"},{"value":"lt-LT","text":"Lietuvių","id":"19"},{"value":"nl-NL","text":"Nederlands","id":"4"},{"value":"nn-NO","text":"Nynorsk","id":"2"},{"value":"pl-PL","text":"Polski (Polska)","id":"18"},{"value":"pt-BR","text":"Português brasileiro","id":"14"},{"value":"fi-FI","text":"Suomi","id":"17"},{"value":"sv-SE","text":"Svenska","id":"3"},{"value":"tr-TR","text":"Türkçe","id":"16"},{"value":"zh-CN","text":"中文(中国)","id":"20"}],"languagePickerSelectedValue":"en-US","loginBannerLocalizedText":null,"i18n":{"loginDisabled":"Due to closed schools around the world, we’re currently experiencing heavy traffic. Unfortunately, we’re not able to log you in right now, so please try again later. We apologize for the inconvenience.","selectLanguage":"Language","close":"Close"},"requestItems":{"userName":"Username","languageId":"LanguageId"}};
+        </script>
+        
+    <script type="text/javascript">
+        // Show the native login / LDAP inputs and hide the clicked link's div.
+        // Set the hidden field's value to save the setting to the viewstate.
+        // The hidden field is read in code and the visibility will be maintained between postbacks.
+        function showNativeLoginElement() {
+            var nativeLoginElementId = 'ctl00_ContentPlaceHolder1_nativeAndLdapLogin';
+            var nativeLoginElement = $('#' + nativeLoginElementId);
+            var orSeparatorElementId = 'ctl00_ContentPlaceHolder1_orSeparator';
+            var orSeparatorElement = $('#' + orSeparatorElementId);
+            var federatedLoginElementId = 'ctl00_ContentPlaceHolder1_federatedLogin';
+            var federatedLoginElement = $('#' + federatedLoginElementId);
+            var showNativeLoginLinkId = 'ctl00_ContentPlaceHolder1_nativeLoginLinkContainer';
+            var showNativeLoginLinkElement = $('#' + showNativeLoginLinkId);
+            var federatedLoginWrapperId = 'ctl00_ContentPlaceHolder1_federatedLoginWrapper';
+            var federatedLoginWrapperElement = $('#' + federatedLoginWrapperId);
+            var showNativeLoginValueFieldId = 'ctl00_ContentPlaceHolder1_showNativeLoginValueField';
+            var showNativeLoginValueFieldElement = $('#' + showNativeLoginValueFieldId);
+
+            if (nativeLoginElement && orSeparatorElement && showNativeLoginLinkElement) {
+                federatedLoginElement.addClass('ccl-rwgm-column-1-2');
+                nativeLoginElement.addClass('ccl-rwgm-column-1-2');
+                nativeLoginElement.addClass("itslogin-box");
+                federatedLoginWrapperElement.addClass("itslogin-box-wrapper-right");
+                nativeLoginElement.fadeIn();
+                orSeparatorElement.fadeIn();
+                showNativeLoginLinkElement.hide();
+                showNativeLoginValueFieldElement.val('true');
+            }
+        };
+
+        if (window.chrome && window.chrome.runtime) {
+            window.chrome.runtime.sendMessage('pdfhopilbndifmfcejgddoabigadjgpm', { message: 'isChromebook' },
+                function (response){
+                    if (response && response.isChromebook) {
+                        document.getElementById('ctl00_ContentPlaceHolder1_ChromebookApp').value = 'true';
+                    }
+                });
+        }
+    </script>
+
+
+        
+        <script type="module" src="../statics.itslearning.com/v3.115.0.528/application/Login/index.bundle.js"></script>
+        <script nomodule src="../statics.itslearning.com/v3.115.0.528/application/Login/index.bundle.es5.js"></script>
+
+    </main>
 </body>
 
+<!-- Mirrored from forsyth.itslearning.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Oct 2020 13:46:41 GMT -->
 </html>
-
-
