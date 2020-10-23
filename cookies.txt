@@ -1,0 +1,13 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.itslearning.com	TRUE	/	FALSE	1999999999	login	CustomerId=2174&LanguageId=13
+forsyth.itslearning.com	TRUE	/	FALSE	1999999999	LanguageID	13
+forsyth.itslearning.com	TRUE	/	FALSE	1999999999	$Version	1
+forsyth.itslearning.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	fnha5vkuiewnu3j3mbbtcixu
+forsyth.itslearning.com	TRUE	/	FALSE	1999999999	OldBrowser	%220%22
+forsyth.itslearning.com	TRUE	/	FALSE	1999999999	__cfduid	d3ffded370f792389a3613f596ee5c5311603460796
+forsyth.itslearning.com	TRUE	/	FALSE	1999999999	ActiveTimestamp	637390576012296124
+forsyth.itslearning.com	TRUE	/	FALSE	1999999999	SameSite	None
+.itslearning.com	TRUE	/	FALSE	1999999999	__cfduid	d9cc5ea6e088172d6d12bcc47e6f9615b1603460802
+statics.itslearning.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
